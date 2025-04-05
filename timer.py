@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import math
 from datetime import datetime, timedelta
+import winsound  # Import winsound for playing sound
 
 class TimerApp:
     def __init__(self, root):
@@ -102,6 +103,7 @@ class TimerApp:
             self.play_button.config(text="▶")
             self.time_label.config(text="00:00")
             self.draw_progress(1.0)
+            winsound.Beep(1000, 100)  # Play a beep sound when time is up
 
     def handle_key_press(self, event):
         if event.char.isdigit():
