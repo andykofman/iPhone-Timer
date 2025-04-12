@@ -15,6 +15,8 @@ A sleek and minimalist timer application built with Python and Tkinter. Features
 - Responsive design
 
 ## Project Structure
+
+```
 Timer/
 ├── static/
 │   ├── css/
@@ -24,6 +26,8 @@ Timer/
 ├── templates/
 │   └── index.html
 └── app.py
+
+```
 ## Installation
 
 1. Ensure you have Python installed on your system
