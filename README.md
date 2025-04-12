@@ -34,11 +34,13 @@ Timer/
 1. Run the application:
 ```python
 python timer.py
+```
+1.2. Enter the desired time in minutes using the keyboard
 
 2. ### Web Application
 Run the web version:
 ```python
-python web_timer.py
+python app.py
 ```
 ## Components
 ### Desktop App (timer.py)
