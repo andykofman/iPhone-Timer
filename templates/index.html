@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="timer-container">
+            <canvas id="progressCanvas"></canvas>
+            <div class="controls">
+                <button id="playButton" class="control-button">▶</button>
+                <button id="closeButton" class="control-button">×</button>
+            </div>
+            <div id="timeLabel">00:00</div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/timer.js') }}"></script>
+</body>
+</html>
