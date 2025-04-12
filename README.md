@@ -5,6 +5,9 @@ The Standby mode in the iPhone is so great when it comes to the pomodoro timer. 
 
 A sleek and minimalist timer application built with Python and Tkinter. Features a beautiful circular progress indicator, keyboard input for time entry, and a clean dark interface. Perfect for tracking work sessions, cooking, or any timed activities.
 
+## Preview
+![Timer App Preview](static/images/preview.png)
+
 ## Features
 - Elegant circular progress animation
 - Keyboard time input
